@@ -1,16 +1,3 @@
-@media(max-width:767px){
-
-}
-@media(min-width:768px){
-
-}
-@media(min-width:992px){
-
-}
-@media(min-width:1200px){
-
-}
-
 
 .features {
   display: flex;
@@ -28,12 +15,12 @@
  }
 
 
-.green-background {
-  background-color: rgba(0, 191, 165, 0.6);
+.transparent-background {
+  background-color: $main-color-transparency;
 }
 
 .dark-green-background {
-  background-color: $green;
+  background-color: $main-color;
 }
 
 .spirit-content {
@@ -70,17 +57,17 @@
   }
 
   a {
-    color: $darkblue;
+    color: $second-dark;
 
   }
   a:hover {
-    color: $lightblue;
+    color: $second-light;
 
   }
 
   .fa {
     font-size: 18px;
-    color: $darkblue;
+    color: $second-dark;
   }
 }
 
@@ -104,7 +91,7 @@
 
   .fa {
     font-size: 18px;
-    color: $blue;
+    color: $second-color;
     }
   }
 

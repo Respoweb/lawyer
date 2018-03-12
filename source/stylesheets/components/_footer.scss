@@ -3,13 +3,13 @@
 }
 
 .footer {
-  background: $lightgreen;
+  background: $main-light;
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 40px;
   padding: 0px 50px;
-  color: $lightblue;
+  color: $second-light;
   position: absolute;
   z-index: 999;
   max-width: 100%;
@@ -25,12 +25,12 @@
 }
 
 .footer-copyright a {
-  color: $blue;
+  color: $second-color;
   transition: all ease 1s;
 
 }
 
 .footer-copyright a:hover {
-  color: $darkblue;
+  color: $second-dark;
 
 }

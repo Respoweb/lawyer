@@ -1,17 +1,16 @@
-- fname: 'Bertrand'
-  lname: 'Thery'
-  image: 'profile.jpg'
-  description: "Ostéopathe D.O. dipômé en 2001 de l'école CETOHM de Paris. Titulaire d'un diplôme universitaire d'Hypnose en 2016 de la Faculté de médecine de Lille. Formé à la prise en charge des nourrissons, femmes enceintes et sportifs."
-  fees: '63'
+- fname: 'Arnaud'
+  lname: 'Chenudet'
+  image: 'profile-1.jpg'
+  description: "Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae."
 
-- fname: 'Julie'
-  lname: 'Marsault'
-  image: 'profile.jpg'
-  description: "Ostéopathe D.O. diplômée en 2010 de l'IDHEO de Nantes. Formée à Ostéovox: réhabilitation sensori-motrice appliquée à la sphère oro-faciale. Formée à la prise en charge des nourrissons, femmes enceintes et sportifs."
-  fees: '58'
+- fname: 'Ronan'
+  lname: 'Girault'
+  image: 'profile-2.jpg'
+  description: "Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae."
 
-- fname: 'Pascal'
-  lname: 'Bouvattier'
-  image: 'profile.jpg'
-  description: "Ostéopathe D.O.diplômé en 2009 de l'IDHEO de Nantes. Titulaire d'un dipôme universitaire d'Anatomie Clinique en 2014 de la Faculté de médecine de Paris Descartes. Formé à la prise en charge des nourrissons, femmes enceintes et sportifs."
-  fees: '58'
+
+- fname: 'Sahar'
+  lname: 'Guerbaa'
+  image: 'profile-3.jpg'
+  description: "Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae."
+
