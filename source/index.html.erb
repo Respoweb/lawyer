@@ -1,18 +1,18 @@
 ---
-title: Boulangerie de quartier - Les meilleurs pains aux chocolat du monde
+title: Cabinet d'avocats - Expert dans le droit des nouvelles technologies, de la propriété intellectuelle et du digital. Leader en droit des markteplaces et spécialiste du RGPD
 ---
 
 <div class="wrapper">
   <div class="row">
     <div class="col-xs-12">
-      <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50%), url(<%= image_path 'bakery-1.jpg'%>); min-height: calc(100vh - 70px);">
+      <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50%), url(<%= image_path 'lawyer-1.jpg'%>); min-height: calc(100vh - 70px);">
         <div class="banner-content">
           <div class="banner-title">
-            <h1>Boulangerie Place Viarme</h1>
+            <h1>Cabinet d'avocats Place Viarme</h1>
           </div>
           <div class="banner-opening">
-            <p><strong>Journée continue du lundi au samedi </strong></p>
-            <p><strong>7h à 16h</strong></p>
+            <p><strong>Journée continue du lundi au vendredi sur RDV </strong></p>
+            <p><strong>9h à 20h</strong></p>
           </div>
           <% data.offices.each do |office| %>
             <p><%= office.address %> <%= office.postalcode %> <%= office.city %></p>
@@ -22,11 +22,11 @@ title: Boulangerie de quartier - Les meilleurs pains aux chocolat du monde
     </div>
   </div>
 </div>
-<div class="wrapper banner-spirit" style="background-image: url(<%= image_path 'bakery-2.jpg'%>); background-size: cover; min-height: calc(100vh - 70px); background-position: bottom center;">
+<div class="wrapper banner-spirit" style="background-image: url(<%= image_path 'lawyer-2.jpg'%>); background-size: cover; min-height: calc(100vh - 70px); background-position: bottom center;">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-sm-offset-3 mindspirit transparent-background">
       <div class="spirit-content">
-        <h2>Du bon pain le matin <br> et sandwish le midi</h2>
+        <h2>Leader en droit des markteplaces et spécialiste du RGPD</h2>
         <p>Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote. Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare, mercede accepta lucris quosdam et prandiis inserunt subditicios ignobiles et obscuros.</p>
         <p>Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare.</p>
       </div>
@@ -46,7 +46,7 @@ title: Boulangerie de quartier - Les meilleurs pains aux chocolat du monde
             </div>
           </div>
           <div class="card-footer">
-            <p>Pour vous servir </p>
+            <p>Honoraires : <%= user.fees %></p>
           </div>
         </div>
       </div>
@@ -85,7 +85,6 @@ title: Boulangerie de quartier - Les meilleurs pains aux chocolat du monde
         <div class="map-infos-container hidden-xs">
           <h3>Règlement</h3>
           <p><i class="fa fa-money" aria-hidden="true"></i> Règlement par <strong>Carte Bancaire</strong>, <strong>chèque</strong> ou <strong>espèces</strong>.</p>
-          <p><i class="fa fa-check" aria-hidden="true"></i> CB à partir d' 1 €.</p>
 
 
           <h3>Adresse</h3>
