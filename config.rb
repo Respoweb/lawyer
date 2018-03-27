@@ -34,7 +34,7 @@ end
 # end
 
 
-set :url_root, 'https://www.example.com'
+set :url_root, 'https://avocat.respoweb.com'
 activate :search_engine_sitemap
 
 # caching_policy 'text/html', cache_control: {max_age: 7200, must_revalidate: true}, content_encoding: 'gzip'
